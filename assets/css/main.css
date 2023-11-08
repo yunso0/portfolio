@@ -190,7 +190,7 @@ html {
 }
 
 body {
-	background: #83799a;
+	background: #004080;
 }
 
 body.is-preload *,
@@ -1803,7 +1803,6 @@ body.is-preload #sidebar nav ul li {
 
 @media(max-width:599px){
  #intro{background: url(../../images/m-banner.jpg);
-	width: 600px;
 	height: 850px;
 	position: relative;
  }
@@ -1815,4 +1814,9 @@ right: 5%;
 	width: 70%;
 	
  }
+}
+
+@media(max-width:435px){
+	#intro h5{font-size: 1.8em;}
+	#intro h5 b{font-size: 2em;}
 }
